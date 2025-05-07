@@ -1,0 +1,17 @@
+.conteudo {
+  display: flex;
+}
+@media(max-width: 1023px){
+  .conteudo{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+:root {
+  --primaria: #58a4b0;
+  --secundaria: #373f51;
+  --secundaria-ativa: #cccccc;
+  --fundo: #ffffff;
+  --fundo-detalhes: #ececec;
+}
